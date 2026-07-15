@@ -15,11 +15,19 @@
 |
  Name
 |
+|
+|
+|
  Tactic
+|
+|
+|
 |
 ---
 |
 T1071	.001	
 |
 Application Layer Protocol: Web Protocols
+|
+Lumma Stealer has used HTTP and HTTP for command and control communication
 ---
