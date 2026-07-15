@@ -10,13 +10,7 @@
 
 ## MITRE ATT&CK Technique
 
-|
- Technique ID
-|
- Name
-|
- Tactic
-|
+|    Technique ID    |     Name    |    Tactic     |
 ---
 |
 T1071	.001	
