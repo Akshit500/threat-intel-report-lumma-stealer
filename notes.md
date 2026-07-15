@@ -25,3 +25,10 @@ Application Layer Protocol: Web Protocols
 |
 Lumma Stealer has used HTTP and HTTP for command and control communication
 ---
+|
+T1119	
+|
+Automated Collection	
+|
+Lumma Stealer has automated collection of various information including cryptocurrency wallet details.
+---
