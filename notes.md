@@ -45,3 +45,5 @@ Initial Access
 |
  Credential Access
 |
+
+T1071	.001	Application Layer Protocol: Web Protocols
