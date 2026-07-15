@@ -15,32 +15,11 @@
 | T1071	.001	| Application Layer Protocol: Web Protocols| Lumma Stealer has used HTTP and HTTP for command and control communication|
 |T1119	|Automated Collection	|Lumma Stealer has automated collection of various information including cryptocurrency wallet details.|
 |T1547	.001	|Boot or Logon Autostart Execution: Registry Run Keys / Startup Folder	|Lumma Stealer has created registry keys to maintain persistence using HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Run.|
-|T1217	|Browser Information Discovery	
-|Lumma Stealer has identified and gathered information from two-factor authentication extensions for multiple browsers.|
-|T1059	.001	|Command and Scripting Interpreter: PowerShell	
-|Lumma Stealer has used PowerShell for initial user execution and other fuctions.|
----
-.006	Command and Scripting Interpreter: Python	
-Lumma Stealer has used malicious Python scripts to execute payloads.[1]
-
-.010	Command and Scripting Interpreter: AutoHotKey & AutoIT	
-Lumma Stealer has utilized AutoIt malware scripts and AutoIt executables.[3][1]
-
-Enterprise	T1555	.003	Credentials from Password Stores: Credentials from Web Browsers	
-Lumma Stealer has gathered credential and other information from multiple browsers.[1][4][5]
-
-Enterprise	T1074	.001	Data Staged: Local Data Staging	
-Lumma Stealer has configured a custom user data directory such as a folder within %USERPROFILE%\AppData\Roaming for staging data.[5]
-
-Enterprise	T1622	Debugger Evasion	
-Lumma Stealer has checked for debugger strings by invoking GetForegroundWindow and looks for strings containing "x32dbg", "x64dbg", "windbg", "ollydbg", "dnspy", "immunity debugger", "hyperdbg", "debug", "debugger", "cheat engine", "cheatengine" and "ida".[4]
-
-Enterprise	T1140	Deobfuscate/Decode Files or Information	
-Lumma Stealer has used Base64-encoded content during execution, decoded via PowerShell.[2]
-
-Enterprise	T1685	Disable or Modify Tools	
-Lumma Stealer has attempted to bypass Windows Antimalware Scan Interface (AMSI) by removing the string "AmsiScanBuffer" from the "clr.dll" module in memory to prevent it from being called.[2]
-
+|T1217	|Browser Information Discovery	|Lumma Stealer has identified and gathered information from two-factor authentication extensions for multiple browsers.|
+|T1622	|Debugger Evasion	| Lumma Stealer has checked for debugger strings by invoking GetForegroundWindow and looks for strings containing "x32dbg", "x64dbg", "windbg", "ollydbg", "dnspy", "immunity debugger", "hyperdbg", "debug", "debugger", "cheat engine", "cheatengine" and "ida".|
+|T1140	|Deobfuscate/Decode Files or Information	|Lumma Stealer has used Base64-encoded content during execution, decoded via PowerShell.|
+|T1685	|Disable or Modify Tools	|Lumma Stealer has attempted to bypass Windows Antimalware Scan Interface (AMSI) by removing the string "AmsiScanBuffer" from the "clr.dll" module in memory to prevent it from being called.|
+-----
 Enterprise	T1573	.002	Encrypted Channel: Asymmetric Cryptography	
 Lumma Stealer has used HTTPS for command and control purposes.[4]
 
