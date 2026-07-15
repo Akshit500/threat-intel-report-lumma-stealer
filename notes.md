@@ -12,17 +12,7 @@
 
 |    Technique ID    |     Name    |    Tactic     |
 ---
-|
-T1071	.001	
-|
-Application Layer Protocol: Web Protocols
-|
-Lumma Stealer has used HTTP and HTTP for command and control communication
+| T1071	.001	| Application Layer Protocol: Web Protocols| Lumma Stealer has used HTTP and HTTP for command and control communication
 ---
-|
-T1119	
-|
-Automated Collection	
-|
-Lumma Stealer has automated collection of various information including cryptocurrency wallet details.
+|T1119	|Automated Collection	|Lumma Stealer has automated collection of various information including cryptocurrency wallet details.
 ---
