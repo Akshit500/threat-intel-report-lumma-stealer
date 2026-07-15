@@ -18,6 +18,8 @@
  Tactic
 |
 ---
+|
 T1071	.001	
---- 
+|
 Application Layer Protocol: Web Protocols
+---
